@@ -24,3 +24,4 @@ Steps to make a bulk registration
 
 6 - Checkout and Pay.
 
+
