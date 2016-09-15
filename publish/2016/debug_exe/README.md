@@ -2,4 +2,4 @@
 
 This is the output of the bin/debug folder. Sometimes this will work better if you don't have admin access to install the DVD installable version.
 
-Click on the EventBriteBuikRegistration.exe file to start the application
+Click on the EventBriteBulkRegistration.exe file to start the application
