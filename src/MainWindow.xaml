@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EventBriteBulkRegistration"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    
+        Title="MainWindow" Height="350" Width="863.4">
+
     <Grid x:Name="grid" Margin="0,50,0,0">
-        <WebBrowser x:Name="webBrowser1" LoadCompleted="WebBrowser1_OnLoadCompleted" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,-0.2" Source="https://www.eventbrite.com/e/gatineau-ottawa-agile-tour-2016-registration-19710484590" RenderTransformOrigin="0.5,0.5" >
-        
-        </WebBrowser>
-        <Button x:Name="button" Content="csv" HorizontalAlignment="Left" Margin="191,-38,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <WebBrowser x:Name="webBrowser1" LoadCompleted="WebBrowser1_OnLoadCompleted" HorizontalAlignment="Left" VerticalAlignment="Top" Source="https://www.eventbrite.com/e/gatineau-ottawa-agile-tour-2016-registration-19710484590" RenderTransformOrigin="0.5,0.5" />
+        <Button x:Name="button" Content="csv" HorizontalAlignment="Right" Margin="0,-40,0.4,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.Column="3" Height="21"/>
+        <Button x:Name="btnGo" Content="Go" HorizontalAlignment="Left" Margin="0,-40,0,0" VerticalAlignment="Top" Width="41" Height="21" Click="btnGo_Click"/>
+        <TextBox x:Name="txtUrl" Height="21" Margin="46,-40,94.4,0" Text="https://www.eventbrite.com/e/gatineau-ottawa-agile-tour-2016-registration-19710484590" VerticalAlignment="Top" HorizontalScrollBarVisibility="Disabled" Grid.ColumnSpan="4" AllowDrop="True" RenderTransformOrigin="0.5,0.5"/>
 
     </Grid>
 </Window>

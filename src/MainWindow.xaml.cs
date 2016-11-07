@@ -129,6 +129,20 @@ namespace EventBriteBulkRegistration
             script.text = System.IO.File.ReadAllText(Environment.CurrentDirectory + scriptName);
             header.appendChild((IHTMLDOMNode) script);
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var url = new Uri(txtUrl.Text);
+                webBrowser1.Source = url;
+                webBrowser1.Navigate(url);
+            }
+            catch (Exception)
+            {
+            }
+
+        }
     }
 
     class Attendee
